@@ -1,0 +1,77 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-image: url('./Assets/backgrnd2.jpg');
+    background-repeat: repeat;
+}
+
+header {
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 25;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #faebd7;
+}
+
+.link {
+   text-decoration: none;
+   color: antiquewhite;
+   margin-bottom: 20px;
+   font-size: 1.25em;
+}
+
+.image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.button {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    min-width: 140px;
+}
+
+.button:hover {
+    background-color: rgb(118, 117, 117);
+    border: 1px solid rgb(118, 117, 117);
+    color: darkgoldenrod;
+}
+
+.postDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    max-width: 467px;
+}
+
+#posts-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
